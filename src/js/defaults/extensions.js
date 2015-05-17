@@ -1,13 +1,17 @@
-/*global AnchorForm, AutoLinker, FontSizeForm, ImageDragging, PasteHandler */
+/*global Button, FormExtension,
+    AnchorForm, AutoLinker, FontSizeForm, ImageDragging, PasteHandler */
 
 var extensionDefaults;
 (function () {
     'use strict';
 
     extensionDefaults = {
-        anchorForm: AnchorForm,
+        button: Button,
+        form: FormExtension,
+
+        anchor: AnchorForm,
         autoLink: AutoLinker,
-        fontsizeForm: FontSizeForm,
+        fontSize: FontSizeForm,
         imageDragging: ImageDragging,
         paste: PasteHandler
     };
